@@ -126,7 +126,6 @@ const LearnAILDToolFinder = () => {
               React.createElement(
                 'div',
                 { style: { display: 'flex', alignItems: 'center', gap: '12px' } },
-                React.createElement('span', { style: { fontSize: '1.5rem' } }, option.icon || '📚'),
                 React.createElement('span', null, option.text)
               )
             )
