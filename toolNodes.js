@@ -4,13 +4,13 @@ const educationalToolNodes = {
     title: "Find Your Perfect Educational AI Tools",
     description: "Choose your educational goal to discover AI tools that will transform your teaching and learning experience:",
     options: [
-      { text: "📝 Create Learning Objectives & Curriculum", node: "objectives", icon: "📝" },
-      { text: "📚 Develop Course Content & Modules", node: "content", icon: "📚" },
-      { text: "🎨 Design Presentations & Visual Materials", node: "presentations", icon: "🎨" },
-      { text: "📊 Create Assessments & Rubrics", node: "assessments", icon: "📊" },
-      { text: "🔍 Research & OER Content Creation", node: "research", icon: "🔍" },
-      { text: "🎬 Produce Educational Videos", node: "videos", icon: "🎬" },
-      { text: "🤖 General AI Writing & Brainstorming", node: "general_ai", icon: "🤖" }
+      { text: "Create Learning Objectives & Curriculum", node: "objectives" },
+      { text: "Develop Course Content & Modules", node: "content" },
+      { text: "Design Presentations & Visual Materials", node: "presentations" },
+      { text: "Create Assessments & Rubrics", node: "assessments" },
+      { text: "Research & OER Content Creation", node: "research" },
+      { text: "Produce Educational Videos", node: "videos" },
+      { text: "General AI Writing & Brainstorming", node: "general_ai" }
     ]
   },
 
