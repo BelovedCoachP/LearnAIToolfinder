@@ -10,6 +10,7 @@ const educationalToolNodes = {
       { text: "Create Assessments & Rubrics", node: "assessments" },
       { text: "Research & OER Content Creation", node: "research" },
       { text: "Produce Educational Videos", node: "videos" },
+      { text: "Improve Accessibility & Inclusion", node: "accessibility" },
       { text: "General AI Writing & Brainstorming", node: "general_ai" }
     ]
   },
@@ -70,6 +71,13 @@ const educationalToolNodes = {
         category: "Generative AI",
         link: "https://claude.ai/",
         tasks: ["Content structuring", "Topic breakdown", "Learning sequences"]
+      },
+      { 
+        name: "NotebookLM", 
+        description: "Google's AI-powered research and writing assistant that can analyze your source documents and help create comprehensive educational content",
+        category: "Research & Writing",
+        link: "https://notebooklm.google.com/",
+        tasks: ["Document analysis", "Content synthesis", "Research-based writing"]
       },
       { 
         name: "Gemini", 
@@ -189,6 +197,27 @@ const educationalToolNodes = {
     description: "Find reliable sources, create OER materials, and conduct educational research:",
     tools: [
       { 
+        name: "Storm AI", 
+        description: "Advanced AI research assistant that creates comprehensive research reports with multiple perspectives and extensive source verification",
+        category: "Research AI",
+        link: "https://storm.genie.stanford.edu/",
+        tasks: ["Comprehensive research", "Multi-perspective analysis", "Report generation"]
+      },
+      { 
+        name: "Gemini Deep Research", 
+        description: "Google's advanced research mode that conducts thorough investigations across multiple sources to create detailed, well-sourced reports",
+        category: "Research AI",
+        link: "https://deepresearch.google/",
+        tasks: ["Deep research", "Source analysis", "Comprehensive reports"]
+      },
+      { 
+        name: "NotebookLM", 
+        description: "Upload your source materials and let Google's AI help you analyze, synthesize, and create new content based on your research",
+        category: "Research & Writing",
+        link: "https://notebooklm.google.com/",
+        tasks: ["Document analysis", "Source synthesis", "Research organization"]
+      },
+      { 
         name: "Perplexity", 
         description: "AI-powered search with real-time sources - perfect for finding current research, statistics, and credible information for your content",
         category: "Generative AI",
@@ -261,6 +290,66 @@ const educationalToolNodes = {
         category: "Video Creation",
         link: "https://www.heygen.com/",
         tasks: ["Avatar creation", "Personalized instruction", "Student engagement"]
+      },
+      { 
+        name: "ElevenLabs", 
+        description: "High-quality AI voice generation and cloning - perfect for creating narration, multilingual content, and consistent voice-overs for educational videos",
+        category: "Audio Creation",
+        link: "https://elevenlabs.io/",
+        tasks: ["Voice generation", "Multilingual narration", "Consistent voice-overs"]
+      },
+      { 
+        name: "Udio", 
+        description: "AI music generation platform for creating custom background music, educational songs, and audio content that enhances learning experiences",
+        category: "Audio Creation",
+        link: "https://www.udio.com/",
+        tasks: ["Background music", "Educational songs", "Custom audio content"]
+      }
+    ],
+    options: [
+      { text: "🏠 Back to Main Menu", node: "start" },
+      { text: "♿ Accessibility Tools", node: "accessibility" }
+    ]
+  },
+
+  accessibility: {
+    title: "Accessibility & Inclusion Tools",
+    description: "Make your educational content accessible to all learners with these AI-powered accessibility tools:",
+    tools: [
+      { 
+        name: "ChatGPT 4o mini (free)", 
+        description: "Generate alt text for images, create video captions, simplify complex text for readability, and ensure inclusive language in your content",
+        category: "Generative AI",
+        link: "https://chat.openai.com/",
+        tasks: ["Alt text generation", "Caption creation", "Inclusive language", "Text simplification"]
+      },
+      { 
+        name: "Claude.AI", 
+        description: "Analyze content for accessibility issues, suggest heading structures, check color contrast descriptions, and create accessible document formats",
+        category: "Generative AI",
+        link: "https://claude.ai/",
+        tasks: ["Accessibility audits", "Heading structure", "Document formatting", "Readability analysis"]
+      },
+      { 
+        name: "ElevenLabs", 
+        description: "Convert text content to natural-sounding audio for students with visual impairments or learning differences - create accessible audio versions of your materials",
+        category: "Audio Creation",
+        link: "https://elevenlabs.io/",
+        tasks: ["Text-to-speech", "Audio materials", "Multilingual accessibility", "Learning support"]
+      },
+      { 
+        name: "Gemini", 
+        description: "Analyze images for accessibility issues, generate detailed alt text, and help create accessible visual content with proper descriptions",
+        category: "Generative AI",
+        link: "https://gemini.google.com/",
+        tasks: ["Image analysis", "Visual accessibility", "Alt text generation", "Content description"]
+      },
+      { 
+        name: "Copilot", 
+        description: "Check accessibility in Microsoft Office documents, suggest heading hierarchies, and ensure proper document structure for screen readers",
+        category: "Generative AI",
+        link: "https://copilot.microsoft.com/",
+        tasks: ["Document accessibility", "Screen reader optimization", "Office integration", "Structure checking"]
       }
     ],
     options: [
